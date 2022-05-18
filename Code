@@ -1,0 +1,58 @@
+#CS 30 - TBG Action Menu - Chris Wang
+#May 18th, 2022
+
+#This is the assignment for TBG Action Menu
+
+print("\nLineage V: One's Battle") # Prints the title of the game.
+
+print("\nChoose the number that corresponds to your class:") # Prints a message to choose the class
+
+print("\n[1] Abyss Walker") # 1 of the available classes
+
+print("\n[2] Oni") # 1 of the available classes
+
+print("\n[3] Dragon Sage") # 1 of the available classes
+
+print("\n[4] Deep Knight") # 1 of the available classes
+
+print("\n[5] Sigil Knight Commander") # 1 of the available classes
+
+print("\n[6] Wraith Knight") # 1 of the available classes
+
+print("\n[7] Dragon Slayer") # 1 of the available classes
+ 
+print("\n[8] Druid") # 1 of the available classes
+
+def choose_your_class():
+    """This is the definition for the class the user will choose!"""
+    style = int(input("\nLost soul, what is your chosen class to conquer the land?"))
+    
+    if style == 1:
+        print("\nGo on! My young Abyss Walker! Claim this corrupted land in the name of Ardor!")
+    
+    elif style == 2:
+        print("\nMake me proud, otherwise you'll have to pay for my next McChicken!")
+    
+    elif style == 3:
+        print("\nGo on now, young dragon, show them the power of our draconic might!")
+    
+    elif style == 4:
+        print("\nConquer in the name of the Prince, my deepest and darkest Deep Knight.")
+    
+    elif style == 5:
+        print("\nYou've received all I have to offer, now lead our army to victory in the name of Solan!")
+    
+    elif style == 6:
+        print("\nRight the wrongs of the sigil knights, show them how much they wronged you by conquering this land!")
+    
+    elif style == 7:
+        print("\nThe dragons have plagued this land for long enough... show them what you're made of, Dragon Slayer.")
+    
+    elif style == 8:
+        print("\nNow, bring balance throughout this land, right the wrongs and wrong the rights.")
+    
+    else:
+        print("You blank out for a moment, then you remembered what the guy in the purgatory said: Don't choose an invalid option!")
+        choose_your_class()
+
+choose_your_class()
